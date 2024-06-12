@@ -82,17 +82,14 @@ h3 {
   align-items: center;
   justify-content: space-around;
 }
-.imgp1 {
+
+.p img{
   width: 10rem;
   height: 12rem;
 }
-.imgp2 {
-  width: 10rem;
-  height: 12rem;
-}
-.imgp3 {
-  width: 10rem;
-  height: 12rem;
+.p p{
+  width: 8rem;
+  height: 10rem;
 }
 .pagf {
   display: flex;
