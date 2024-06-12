@@ -67,11 +67,13 @@ footer {
   background-color: rgb(238, 107, 128);
   width: 116.4rem;
   height: 4.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 h3 {
   color: white;
-  padding-left: 55rem;
-  padding-top: 1.4rem;
 }
 .p {
   width: 116rem;
@@ -83,11 +85,11 @@ h3 {
   justify-content: space-around;
 }
 
-.p img{
+.p img {
   width: 10rem;
   height: 12rem;
 }
-.p p{
+.p p {
   width: 8rem;
   height: 10rem;
 }
@@ -103,7 +105,6 @@ h3 {
 .pf {
   padding: 2.6rem;
   width: 50rem;
-  margin-left: 7rem;
   font-size: 1.5rem;
   color: blue;
 }
@@ -114,4 +115,40 @@ h3 {
   font-size: 2rem;
   padding: 5rem;
   color: blue;
+}
+table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9rem;
+  border-collapse: collapse;
+}
+
+table tr,
+td,
+th {
+  border: 1.5px solid black;
+  width: 12rem;
+  height: 6rem;
+  text-align: center;
+}
+.final {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.final img {
+  width: 9rem;
+}
+.final ul {
+  font-size: 16px;
+  width: 17rem;
+  height: 6rem;
+}
+.textf{ 
+  text-align: center;
+    font-size: 2rem;
+    padding: 7rem;
 }
