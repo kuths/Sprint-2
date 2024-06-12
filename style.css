@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  height: 5rem;
+  background-color: rgb(238, 107, 128);
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  background-color: pink;
+}
+.navbar {
+  display: flex;
+  padding: 1rem;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0.6rem;
+  background-color: rgb(238, 107, 128);
+  border-radius: 1rem;
+  border: 0.1rem solid black;
+  margin: 0.1rem;
+}
+.logo {
+  width: 3rem;
+  object-fit: contain;
+}
+.inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(33, 61, 216);
+}
+h2 {
+  color: rgb(33, 61, 216);
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.img {
+  width: 60rem;
+  height: 20rem;
+}
+.medio {
+  display: flex;
+  flex-direction: row;
+  padding: 4rem;
+  justify-content: space-around;
+}
+.img1 {
+  height: 15rem;
+}
+.pi {
+  color: blue;
+  font-size: 1.5rem;
+}
+footer {
+  background-color: rgb(238, 107, 128);
+  width: 116.4rem;
+  height: 4.4rem;
+}
+h3 {
+  color: white;
+  padding-left: 55rem;
+  padding-top: 1.4rem;
+}
+.p {
+  width: 116rem;
+  height: 14rem;
+  color: blue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.imgp1 {
+  width: 10rem;
+  height: 12rem;
+}
+.imgp2 {
+  width: 10rem;
+  height: 12rem;
+}
+.imgp3 {
+  width: 10rem;
+  height: 12rem;
+}
+.pagf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgf {
+  width: 60rem;
+  height: 20rem;
+}
+.pf {
+  padding: 2.6rem;
+  width: 50rem;
+  margin-left: 7rem;
+  font-size: 1.5rem;
+  color: blue;
+}
+.tp4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 2rem;
+  padding: 5rem;
+  color: blue;
+}
