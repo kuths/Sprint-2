@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raffle</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="layout">
+      <header>
+        <nav class="navbar">
+          <a href="./index.html">Home</a>
+          <a href="./About.html">About</a>
+          <a href="./contact.html">Contact</a>
+          <a href="./information.html">more information</a>
+          <a href="./benefitsTips.html">Benefits and Tips</a>
+          <a href="#">Raffle</a>
+        </nav>
+        <img class="logo" src="./img/logo.png" alt="logo" />
+      </header>
+      <main class="raffle_main">
+        <h1>Raffle</h1>
+        <h2>
+          You can collaborate to hold an exhibition 
+        </h2>
+        <div class="forymap">
+          <div>
+            <form action="./show_data.html" method="get">
+            <fieldset class="formulario">
+              <label for="Firstname">
+                First name
+                <input type="text" name="Firstname" id="Firstname" />
+              </label>
+              <label for="Lastname">
+                Last name
+                <input type="text" name="Lastname" id="Lastname" />
+              </label>
+              <label for="meetorzoom">
+                Choose meet or zoom
+                <select name="meetorzoom" id="meetorzoom">
+                  <option value="meet">meet</option>
+                  <option value="zoom">zoom</option>
+                </select>
+              </label>
+              <label for="chosedate">
+                choose date
+                <input type="date" name="fecha" id="chosedate">
+              </label>
+              <div class="cash">
+                <p>Payment Option</p>
+                <label for="payment">
+                  Cash
+                  <input type="radio" name="payment" value="Cash" id="payment"/>
+                </label>
+                <label for="payment1">
+                  Credit Card
+                  <input type="radio" name="payment" value="Credit" id="payment1" />
+                </label>
+                <label for="payment2">
+                  Debit Card
+                  <input type="radio" name="payment" value="Debit" id="payment2"/>
+                </label>
+              </div>
+
+              <label for="Menssage">
+                Menssage (Optional)
+                <textarea name="Menssage" id="Menssage"></textarea>
+              </label>
+              <label for="terms">
+                I accept terms and conditions
+                <input type="checkbox" name="terms" id="terms" required />
+              </label>
+              <button>Send</button>
+            </fieldset>
+          </form>
+            </div>
+          
+        
+           <div class="mapa">
+<p>Our location is located at:</p>
+<section>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34310.596475085!2d-118.25014774510939!3d34.014725923349786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c78ea5225361%3A0x82cc966d190755b8!2sSoho%20Warehouse!5e0!3m2!1ses-419!2sco!4v1718809644241!5m2!1ses-419!2sco" class="mapaang" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+            </div>
+          
+        </div>
+      </main>
+      <footer>
+        <h3>Created by: Eduard Perez</h3>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -4,17 +4,22 @@
   box-sizing: border-box;
 }
 header {
-  height: 5rem;
+  min-height: 8vh;
   background-color: rgb(238, 107, 128);
   display: flex;
-  justify-content: space-between;
+  flex-direction: column-reverse;
+  align-items: center;
 }
-body {
+.layout {
   background-color: pink;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .navbar {
   display: flex;
   padding: 1rem;
+  flex-direction: column;
 }
 .navbar a {
   color: white;
@@ -26,7 +31,7 @@ body {
   margin: 0.1rem;
 }
 .logo {
-  width: 3rem;
+  width: 10%;
   object-fit: contain;
 }
 .inicio {
@@ -47,27 +52,47 @@ h2 {
   padding: 1rem;
 }
 .img {
-  width: 60rem;
-  height: 20rem;
+  width: 90%;
+  object-fit: cover;
+}
+.index_main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.about_main {
+  flex-grow: 1;
+  width: 100%;
+}
+.contact_main {
+  flex-grow: 1;
+}
+.information_main {
+  flex-grow: 1;
+}
+.benefitsTips_main {
+  flex-grow: 1;
+}
+.raffle_main {
+  flex-grow: 1;
 }
 .medio {
   display: flex;
   flex-direction: row;
-  padding: 4rem;
-  justify-content: space-around;
+  padding: 15%;
+  justify-content: space-between;
 }
 .img1 {
-  height: 15rem;
+  width: 40%;
 }
 .pi {
   color: blue;
-  font-size: 1.5rem;
-  width: 36rem;
+  font-size: 80%;
+  width: 50%;
 }
 footer {
   background-color: rgb(238, 107, 128);
-  width: 116.4rem;
-  height: 4.4rem;
+  min-height: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,11 +102,10 @@ h3 {
   color: white;
 }
 .p {
-  width: 116rem;
-  height: 14rem;
+  width: 100%;
   color: blue;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
 }
@@ -91,8 +115,7 @@ h3 {
   height: 12rem;
 }
 .p p {
-  width: 8rem;
-  height: 10rem;
+  padding: 10%;
 }
 .pagf {
   display: flex;
@@ -100,12 +123,11 @@ h3 {
   align-items: center;
 }
 .imgf {
-  width: 60rem;
-  height: 20rem;
+  width: 90%;
 }
 .pf {
-  padding: 3.3rem;
-  width: 50rem;
+  padding: 1%;
+  width: 100%;
   font-size: 1.5rem;
   color: blue;
 }
@@ -113,18 +135,9 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  font-size: 2rem;
-  padding: 6rem;
+  padding: 3%;
   color: blue;
 }
-table {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 9rem;
-  border-collapse: collapse;
-}
-
 table tr,
 td,
 th {
@@ -135,8 +148,8 @@ th {
 }
 .final {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
   font-size: 1.5rem;
   padding: 1rem;
 }
@@ -150,6 +163,103 @@ th {
 }
 .textf {
   text-align: center;
-  font-size: 2rem;
-  padding: 7rem;
+  padding: 2%;
+}
+.final ol {
+  padding: 5%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+.cash {
+  display: flex;
+  flex-direction: column;
+}
+.mapaang {
+  width: 100%;
+}
+.mapa p {
+  font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .navbar {
+    flex-direction: row;
+  }
+  .img {
+    width: 30rem;
+    height: 11rem;
+  }
+  .medio {
+    font-size: 1.5rem;
+  }
+  .img1 {
+    width: 25%;
+  }
+  .p {
+    flex-direction: row;
+  }
+  .p p {
+    width: 50%;
+  }
+  .imgf {
+    width: 90%;
+    height: 18rem;
+  }
+  .pf {
+    padding: 4rem;
+  }
+  .tp4 {
+    font-size: 2rem;
+  }
+  table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-collapse: collapse;
+  }
+  .final {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .forymap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mapa {
+    width: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4rem;
+  }
+  .img {
+    width: 43rem;
+    object-fit: cover;
+  }
+  .medio {
+    padding: 7rem;
+  }
+  .img1 {
+    width: 9rem;
+  }
+  .p p {
+    height: 10rem;
+  }
+  .final {
+    justify-content: space-around;
+  }
 }
